@@ -30,6 +30,9 @@ module.exports = function(RED) {
             var url = this.url||msg.url;
             var options = { priority:pri };
             if (url) { options.url = url; }
+            if (msg.hasOwnProperty('description')) {
+                options.description = msg.description;
+            }
             if (typeof(msg.payload) === 'object') {
                 msg.payload = JSON.stringify(msg.payload);
             }

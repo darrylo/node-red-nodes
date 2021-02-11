@@ -16,7 +16,7 @@ Usage
 
 Uses Prowl to push the `msg.payload` to an Apple device that has the prowl app installed.
 
-Optionally uses `msg.topic` to set the title. You can also set `msg.priority` to configure the urgency from -2 (low), through 0 (normal) to 2 (urgent).
+Optionally uses `msg.topic` to set the title. You can also set `msg.priority` to configure the urgency from -2 (low), through 0 (normal) to 2 (urgent).  Setting `msg.description` will specify the message description.
 
 You may use `msg.url` to set a url to redirect the user to on receipt of the message if you don't set one in the edit dialogue.
 
