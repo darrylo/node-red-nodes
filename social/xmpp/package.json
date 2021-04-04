@@ -1,6 +1,6 @@
 {
     "name": "node-red-node-xmpp",
-    "version": "0.4.1",
+    "version": "0.5.1",
     "description": "A Node-RED node to talk to an XMPP server",
     "dependencies": {
         "@xmpp/client": "^0.12.0"
@@ -26,10 +26,5 @@
         "name": "Dave Conway-Jones",
         "email": "ceejay@vnet.ibm.com",
         "url": "http://nodered.org"
-    },
-    "contributors": [
-        {
-            "name": "@tweek"
-        }
-    ]
+    }
 }
